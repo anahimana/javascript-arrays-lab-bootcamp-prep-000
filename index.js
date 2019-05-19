@@ -27,5 +27,5 @@ function appendKitten(name) {
   return newArray;
 }
 
-console.log(appendKitten("Fred"));
+// console.log(appendKitten("Fred"));
 // console.log(kittens);
