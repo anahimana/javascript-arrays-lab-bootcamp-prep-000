@@ -17,5 +17,5 @@ function destructivelyRemoveLastKitten() {
   return kittens;
 }
 
-console.log(destructivelyRemoveLastKitten());
+// console.log(destructivelyRemoveLastKitten());
 // console.log(kittens);
