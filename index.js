@@ -27,10 +27,10 @@ function appendKitten(name) {
   return newArray;
 }
 
-function appendKitten(name) {
-  var newArray = [...kittens, name];
+function prependKitten(name) {
+  var newArray = [name, ...kittens];
   return newArray;
 }
 
-// console.log(appendKitten("Fred"));
+console.log(prependKitten("Fred"));
 // console.log(kittens);
