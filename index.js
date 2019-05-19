@@ -3,9 +3,9 @@ var kittens = ["Milo", "Otis", "Garfield"]; //define your array here
 // Add your functions and code here
 
 function destructivelyAppendKitten(array) {
-  array.push("Alex");
+  array.push();
   return kittens;
 }
 
-console.log(destructivelyAppendKitten(kittens));
-console.log(kittens);
+// console.log(destructivelyAppendKitten(kittens));
+// console.log(kittens);
