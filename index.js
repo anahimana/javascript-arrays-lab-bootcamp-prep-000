@@ -8,3 +8,4 @@ function destructivelyAppendKitten(array) {
 }
 
 console.log(destructivelyAppendKitten(kittens));
+console.log(kittens);
