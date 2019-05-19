@@ -38,10 +38,10 @@ function removeLastKitten() {
   return newArray;
 }
 
-function removeLastKitten() {
-  var newArray = kittens.slice(0, kittens.length - 1);
+function removeFirstKitten() {
+  var newArray = kittens.slice(0);
   return newArray;
 }
 
-console.log(removeLastKitten())
+console.log(removeFirstKitten());
 console.log(kittens);
