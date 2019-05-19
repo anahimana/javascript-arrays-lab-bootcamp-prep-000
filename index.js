@@ -7,10 +7,10 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-function destructivelyAppendKitten(name) {
-  kittens.push(name);
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
   return kittens;
 }
 
-// console.log(destructivelyAppendKitten(kittens));
+console.log(destructivelyAppendKitten("frank"));
 // console.log(kittens);
