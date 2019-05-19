@@ -32,5 +32,12 @@ function prependKitten(name) {
   return newArray;
 }
 
+
+function prependKitten(name) {
+  var newArray = [name, ...kittens];
+  return newArray;
+}
+
+
 console.log(prependKitten("Fred"));
 // console.log(kittens);
