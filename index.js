@@ -39,5 +39,5 @@ function removeLastKitten() {
 }
 
 
-console.log(prependKitten("Fred"));
+console.log(removeLastKitten())
 // console.log(kittens);
