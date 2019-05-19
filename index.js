@@ -22,5 +22,5 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-console.log(destructivelyRemoveFirstKitten());
+// console.log(destructivelyRemoveFirstKitten());
 // console.log(kittens);
