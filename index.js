@@ -7,5 +7,10 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
+  return kittens;
+}
+
 // console.log(destructivelyAppendKitten(kittens));
 // console.log(kittens);
