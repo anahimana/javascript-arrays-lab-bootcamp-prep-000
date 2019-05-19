@@ -17,5 +17,5 @@ function destructivelyRemoveLastKitten() {
   return kittens;
 }
 
-// console.log(destructivelyPrependKitten("frank"));
+console.log(destructivelyRemoveLastKitten());
 // console.log(kittens);
