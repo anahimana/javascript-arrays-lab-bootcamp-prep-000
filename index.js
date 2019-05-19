@@ -40,4 +40,4 @@ function removeLastKitten() {
 
 
 console.log(removeLastKitten())
-// console.log(kittens);
+console.log(kittens);
